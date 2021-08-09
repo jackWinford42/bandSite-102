@@ -1,0 +1,43 @@
+/* Aesthetics.css */
+body {
+    background-color: purple;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+nav {
+    padding-bottom: 2em;
+    padding-top: 1em;
+    text-align:center;
+    background-color: red;
+}
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+}
+h1 {
+    background-color: white;
+    text-align:center;
+    padding-top: 45px;
+    font-size: 3em;
+}
+main {
+    text-align: center;
+    font-size: 1.5em;
+}
+img {
+    float: left;
+}
+table {
+    border-collapse: collapse;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+table, th, td {
+    border: 1px solid black;
+}
+tr:nth-child(even) {background-color: pink;}

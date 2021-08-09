@@ -1,0 +1,156 @@
+/* Aesthetics.css */
+body {
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+nav {
+    padding-bottom: 2em;
+    padding-top: 1em;
+    text-align:center;
+    background-color: red;
+}
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+    padding: 20px;
+}
+h1 {
+    text-align:center;
+    padding-top: 45px;
+    font-size: 3em;
+}
+main {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header{
+    font-size: 3em;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: #c8a2c8 ;
+    
+}
+
+header img{
+    float: none;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+header h1{
+    display: inline;
+    font-family: cursive;
+    font-size: 80px;
+}
+
+body {
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+nav{
+    background-color: red;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 50px;
+    color: white;
+       
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #333;
+    z-index: 99999;
+    padding:10px
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    
+}
+main {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(8, 1 fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 4px;
+
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
